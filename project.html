@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding:0;
+        } */
+        
+
+        .Grandfather{
+            height: 550px;
+            border: 1px dashed ;
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+            font-size: 20px;
+        }
+        .father,.uncle{
+            width: 100%;
+            border: 1px dashed ;
+            padding: 10px; 
+            margin: 20px;
+            
+
+        }
+        .person1{
+            height: 450px;
+            width: 450px;
+            border: 1px dashed ;
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 40px;
+        }
+        .children{
+            border: 1px solid ;
+            padding: 5px;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            
+        }
+        .children>div{
+            border: 1px dashed ;
+            text-align: center;
+            font-size: 40px;
+            margin-top: 20px; 
+        }
+
+        .uncle{
+            text-align: center;
+            width: 100%;
+            border: 1px dashed ;
+            padding: 10px; 
+            margin: 20px;
+            
+        }
+        .per1{
+            border: 1px dashed ;
+            text-align: center;
+            margin-top: 2%;
+            
+        }
+        .per2{
+            text-align: center;
+            border: 1px dashed ;
+            height: 350px;
+            margin-top: 2%;
+        }
+        .child1{
+            border: 1px solid ;
+            text-align: center;
+            margin-top: 2%;
+            margin-left: 5%;
+            margin-right: 5%;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        }
+        .child2{
+            height: 200px;
+            border: 1px solid ;
+            text-align: center;
+            margin-top: 2%;
+            margin-left: 5%;
+            margin-right: 5%;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+           
+        }
+        .child2>div{
+            border: 1px dashed;
+            margin-top: 3%;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 25px;
+        }
+        .child3{
+            border: 1px solid ;
+            text-align: center;
+            margin-top: 2%;
+            margin-left: 5%;
+            margin-right: 5%;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        }
+        .per3{
+            border: 1px dashed ;
+            text-align: center;
+            margin-top: 2%;
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="Grandfather">Grandfather
+            <div class="father">Father
+                <div class="person1">Person-1
+                    <div class="children">Child-1</div>
+                    <div class="children">Child-2</div>
+                    <div class="children">Child-3
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="uncle">Uncle
+                <div class="per1">Person-1</div>
+                <div class="per2">Person-2
+                    <div class="child1"> Child-1</div>
+                    <div class="child2">Child-2
+                        <div style="background-color: yellow;">1</div>
+                        <div>2</div>
+                        <div style="background-color: green;">3</div>
+                    </div>
+                    <div class="child3">Child-3</div>
+                </div>
+                <div class="per3">Person-3
+
+                </div>
+            </div>
+        </div>
+    
+    
+</body>
+</html>
